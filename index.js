@@ -5,7 +5,7 @@ import { createuser, getAllUsers, deleteUser, updateUser, login } from './contro
 import { createcomment, getAllComment, deleteComment, updateComment } from './controller/commentController.js';
 import { createblog, getAllblog, deleteblog, updateblog } from './controller/blogcontroller.js';
 import user from './models/user.js';
-import userRoutes from './Routes/UserRoutes.js';
+import userRoutes from './Routes/userRoutes.js';
 import commentRoutes from './Routes/commentRoutes.js';
 import blogRoutes from './Routes/blogRoutes.js';
 import cookieParser from 'cookie-parser';
